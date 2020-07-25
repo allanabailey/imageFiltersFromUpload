@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Filter Images</title>
+	<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+</head>
+<body>
+	<h1>Filter Fun with Images</h1>
+
+	<canvas id="can"></canvas>
+	<canvas id="can2"></canvas>
+	
+	<p>
+		<input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+	</p>
+	<p>
+		<input type="button" value="Make Grey" id="greyClick" onclick="makeGray()">
+		<input type="button" value="Make Red" id="redClick" onclick="makeRed()">
+		<input type="button" value="Make Rainbow" id="rainbowClick" onclick="makeRainbow()">
+		<input type="button" value="Make Blurry" id="blurClick" onclick="makeBlurry()">
+	</p>
+		<input type="button" value="Reset Image" id="resetClick" onclick="resetImage()">
+</body>
+</html>

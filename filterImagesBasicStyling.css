@@ -1,0 +1,19 @@
+html {
+  margin: 10px;
+}
+
+h1 {
+  font-family: Century Gothic, Arial;
+  color: #400080;
+}
+
+canvas {
+  border-left: solid 3px gold;
+  border-bottom: solid 3px gold;
+  height: 400px;
+  width: 400px;
+}
+
+#finput {
+  font-size: 16px;
+}
